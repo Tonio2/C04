@@ -6,7 +6,7 @@
 /*   By: alabalet <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/15 00:18:16 by alabalet          #+#    #+#             */
-/*   Updated: 2020/10/15 00:40:15 by alabalet         ###   ########.fr       */
+/*   Updated: 2020/10/15 00:41:38 by alabalet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ int	parse_base(char *base)
 	return (cpt);
 }
 
-int ft_index(char c, char *base)
+int	ft_index(char c, char *base)
 {
 	int cpt;
 
