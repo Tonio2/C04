@@ -6,16 +6,16 @@
 /*   By: alabalet <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/14 22:34:41 by alabalet          #+#    #+#             */
-/*   Updated: 2020/10/14 23:06:47 by alabalet         ###   ########.fr       */
+/*   Updated: 2020/10/14 23:10:57 by alabalet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void ft_putnbr(int nb)
+void	ft_putnbr(int nb)
 {
-	char c;
-	int signe;
+	char	c;
+	int		signe;
 
 	signe = 1;
 	if (nb < 0)
